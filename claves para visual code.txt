@@ -1,0 +1,14 @@
+<br>= salto de linea
+<p>= texto su cierre es </p>
+<h1> titulo <h1/>
+<hr>= salto con linea de salto
+control+s para guardar
+<!--Esto es comentario-->
+ul=listas sin orden
+0l=lista ordenada
+src= recursos
+alt= descripción de l imagen
+height ancho
+width alto
+main envez de div
+https://github.com/Joaquin-Ocampo-Valdivia/Dise-o-wed-1.git
