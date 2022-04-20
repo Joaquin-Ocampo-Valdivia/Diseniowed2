@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Calculadora</title>
+	<link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+	<div class="contenedor">
+		<form action="">
+			<input id="numero1" type="text">
+			<p>+</p>
+			<input id="numero2" type="text">
+			<p>=</p>
+			<input id="resultado" type="text" readonly>
+			<input type="button" class="btn" onclick="sumar()" value="Resultado">
+		</form>
+	</div> 
+
+	<script>
+	function sumar()
+	{
+
+		var ed=parseFloat(document.getElementById('numero1').value);
+		//var num2=parseFloat(document.getElementById('numero2').value);
+		
+		let res;
+
+		if(ed<0)
+			res='Edad no valida'
+
+			else if(ed<=12)
+				res='niño';
+				else if(ed<=17)
+					res='Adolecente';
+					else if(ed<=59)
+						res='Adulto';
+						else
+							res='Adulto Mayor';
+			
+
+		document.getElementById("resultado").value = res;
+
+
+
+	/*var num1 = parseFloat(document.getElementById('numero1').value);
+	var num2 = parseFloat(document.getElementById('numero2').value);
+	
+	var res = num1+num2;
+
+	document.getElementById('resultado').value = res;*/
+
+	}
+
+	/*var ed = parseFloat(document.getElementById('numero1').value);
+	//var num2 = parseFloat(document.getElementById('numero2').value);
+	var res;
+	
+
+	if(ed<=0)
+		res="Edad no valida"
+		else if(ed<=12)
+			res="niño";
+			else if(ed<=17)
+				res="Adolecente";
+				else if(ed<=60)
+					res="Adulto";
+					else
+						res="Adulto Mayor";
+
+ document.getElementById('resultado').value = res;
+
+}*/
+	</script>
+
+	
+</body>
+</html>

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eventos</title>
+</head>
+<body>
+    <!-- Tres modelos de eventos
+        * Modelo de Eventos Basico
+            - Funciona en todos los navegadores
+            - Limitante
+        * Modelo de eventos Estandar
+            - Permite mas funcionalidad
+            - Funciona en casi todos los navegadores
+        * Modelo de eventos de IE
+            - IE 7.
+            - Desarollado por Microsoft IE
+            - Edge
+    -->
+
+    <h1 id="titulo">Eventos</h1>
+    <!--<button onclick="Saludar()"> Saludar</button>  
+    <button id="btn-saludo">   Saludo   </button>  --> 
+    
+    <button id="btn"> Crear caja</button>
+    
+    <section id="Contenedor"></section>
+   
+<script>
+
+    var boton = document.getElementById('btn');
+
+    boton.addEventListener('click',CrearCaja);
+
+    //boton.removeEventListener(CrearCaja);
+
+    function CrearCaja()
+    {
+       var Contenedor= document.getElementById('Contenedor');
+       var caja = document.createElement('div');
+       caja.className = 'caja';
+       Contenedor.appendChild(caja);
+
+    }
+
+
+/*
+   tit.addEventListener('click', Saludo2);
+
+    let btnSaludo =document.getElementById("btn-saludo");
+
+    btnSaludo.addEventListener('mouseover',Saludar);
+    btnSaludo.addEventListener('click',Saludo2);
+*/
+    /*
+        click
+        focus
+        blur
+        change
+        onlodad
+        mouseover
+        mouseout
+        resize
+        submit
+    */
+
+  /* function Saludar()
+    { alert("Hola"); }
+
+
+    function Saludo2()
+    { alert("Este es un evento del titulo"); }
+    //Saludar();*/
+
+
+
+</script>
+
+<style>
+    .caja{
+        width: 200px;
+        height: 200px;
+        cursor: pointer;
+        background: #863214;
+        margin: 10px;
+        display: inline-block;
+    }
+</style>
+
+
+</body>
+</html>

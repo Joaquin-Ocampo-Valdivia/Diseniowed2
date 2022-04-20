@@ -12,3 +12,4 @@ height ancho
 width alto
 main envez de div
 https://github.com/Joaquin-Ocampo-Valdivia/Dise-o-wed-1.git
+https://jquery.com/
