@@ -1,0 +1,17 @@
+body{
+    font-family:sans-serif;
+    font-style: italic;
+    padding: 30px 300px;
+    background-image: url("https://p4.wallpaperbetter.com/wallpaper/639/201/275/dark-skull-hacker-wallpaper-preview.jpg");
+    font-size: 25px;
+    color: black;
+}
+.dis{
+    border-radius: 30px;
+    background-color: #B5FFD9;
+    margin: 5px 55px;
+    padding: 5px 55px;
+}
+.uno{
+    color:#000000;
+}

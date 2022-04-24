@@ -1,0 +1,39 @@
+body{
+    width: 80%;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin: 100px 100px;
+    padding: 100px 50px;
+    background-image: url("https://p4.wallpaperbetter.com/wallpaper/639/201/275/dark-skull-hacker-wallpaper-preview.jpg");}
+.comentario{
+    border-radius:14px 14px;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 10px 5px;
+    padding: 15px 55px;
+}
+.respuesta{
+    font-size: 16px;
+    margin: 15px 5px;
+    padding: 15px 25px;
+    background:#000;
+    color: white;
+    }
+#ini{
+        border-radius: 30px;
+        background-color: #B5FFD9;
+        margin: 5px 55px;
+        padding: 5px 55px;
+}
+.envi{
+    width:100%;
+	padding:8px 16px;
+	margin-top:32px;
+	border:3px solid #000;
+	border-radius:30px;
+	display:block;
+	color:#fff;
+	background-color:#000;
+}
+.envi:hover{
+    cursor:pointer;
+}

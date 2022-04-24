@@ -31,7 +31,7 @@ header{
     display: flex;
 }
 
-p{
+.top{
     max-width: 100%;
     width: 100%;
     padding: 25px;
@@ -46,3 +46,30 @@ body header img{
     display: flex;
     height: 50px;
 }
+.pie{
+    text-align: center;
+    background-color: black;   
+    color:rgb(255,255,255);
+}
+.li{
+    color: white;
+}
+body div img{
+    max-width:100%;
+    width:80%;
+}
+
+/* preguntar
+.menu::before{
+    display: block;
+    content: '';
+    width: 0%;
+    background: #719393;
+    height: 5px;
+    top: 0;
+    position: absolute;
+    transition: width 0.5s;
+}
+.menu:hover:before{
+    width: 100%;
+}*/

@@ -13,3 +13,33 @@ width alto
 main envez de div
 https://github.com/Joaquin-Ocampo-Valdivia/Dise-o-wed-1.git
 https://jquery.com/
+jquery claves
+hide=oculta
+show= muestra
+toggle=
+fadeIn=aparece como desbanacido 
+fadeOut=desbanece
+faedToggle= ambos efectos
+slideDown=aparece deslizando hacia abajo
+slideUp=desaparece deslizando hacia arriba
+slideToggle= ambos efectos
+$(selector).efecto(velocidad, callback);
+$(document).ready(function(){
+//parent=padre
+$('tercera').parent().css({se puede poner propiedades CSS})
+}
+parents= todos los elementos padres
+children=hijos del contenedor 
+find= encontrar un elemento
+siblings= desvanencen los que no estan en el mismo contenedor 
+next= oculta el siguiente elemento
+prev= oculta el anterior 
+nextAll= oculta todos los anteriores elemento
+prevAll= oculta todos los anteriores
+//FILTROS
+//FIRST=primer elemento
+last=el ultimo
+eq=igual a (puedes escoger el elemento)
+//filter= filtrar entre los elementos
+//lelemtos bajo algun criterio 
+not=aplica atodos los elementos menos a la selecionada 

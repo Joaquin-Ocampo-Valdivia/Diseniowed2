@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="MobileOptimized" content="width" />
+    <link rel="stylesheet" href="contp.css">
+    <title>contactos</title>
+</head>
+<body>
+    <form  action="agradecimiento.html" method="GET" id="ini">
+        <label class="comentario" for="">Nombre completo:</label>
+        <input class="respuesta" type="text" placeholder="Nombre" name="Nombre" id="Nombre" required pattern="[A-Z a-z]{4,25}"  >
+        <br>
+
+ 
+        <label class="comentario" for="">Correo electronico:</label>
+        <input class="respuesta" type="email" placeholder="example@gmail.com" name="email" required>
+        <br>
+
+        <label class="comentario" for="">Telefono:</label>
+        <input class="respuesta" type="tel" placeholder="70070070" name="Telf"required pattern="[0-9]{8}">
+        <br>
+
+        <label class="comentario" for="">Ingrese la fecha actual:</label>
+        <input class="respuesta" type="date" name="fecha"requiered>
+        <br>
+
+        <label class="comentario" for="">Escriba el tipo de usuario:</label>
+        <input class="respuesta" type="list" name="lista">
+        <br>
+
+        <label class="comentario" for="">¿A que sede pertenece de la UPDS?</label>
+
+        <select class="respuesta" name="opciones">
+            <optgroup label="Seleccionar departamento...">
+            <option value="1">La Paz</option>
+            <option value="2">Oruro</option>
+            <option value="3">Potosí</option>
+            <option value="4">Cochabamba</option>
+            <option value="5">Chuquisaca</option>
+            <option value="6">Tarija</option>
+            <option value="7">Pando</option>
+            <option value="8">Beni</option>
+            <option value="9">Santa Cruz</option>
+            </optgroup>
+         </select>
+        <br>
+
+         <label class="comentario" for="">Ingrese su comentario (opcional)</label>
+         <input class="respuesta" type="textarea" name="comentarios">
+         <br>
+         <label class="regresar" for="#"><a href="indexp.html"style="color:black;">Regresar a la pagina principal</a></label>
+        <label class="envi" for="#"><a href="agrp.html" style="color:rgb(253, 253, 253);">Enviar</a></label>
+         
+    </form>
+    
+</body>
+</html>
