@@ -9,31 +9,31 @@
     <title>contactos</title>
 </head>
 <body>
-    <form  action="agradecimiento.html" method="GET" id="ini">
-        <label class="comentario" for="">Nombre completo:</label>
-        <input class="respuesta" type="text" placeholder="Nombre" name="Nombre" id="Nombre" required pattern="[A-Z a-z]{4,25}"  >
+    <form  action="agrp.html" method="GET" id="ini">
+        <label class="comentario" for="Nombre">Nombre completo:</label>
+        <input type="text" class="respuesta" placeholder="Nombre" name="Nombre" id="Nombre" pattern="[A-Z a-z]{4,25}" required>
         <br>
 
  
-        <label class="comentario" for="">Correo electronico:</label>
-        <input class="respuesta" type="email" placeholder="example@gmail.com" name="email" required>
+        <label class="comentario" for="Correo">Correo electronico:</label>
+        <input type="email" class="respuesta" placeholder="example@gmail.com" name="email" id="Correo" required>
         <br>
 
-        <label class="comentario" for="">Telefono:</label>
-        <input class="respuesta" type="tel" placeholder="70070070" name="Telf"required pattern="[0-9]{8}">
+        <label class="comentario" for="Telefono">Telefono:</label>
+        <input type="tel" class="respuesta" placeholder="70070070" name="Telf" id="Telefono" pattern="[0-9]{8}" required>
         <br>
 
-        <label class="comentario" for="">Ingrese la fecha actual:</label>
-        <input class="respuesta" type="date" name="fecha"requiered>
+        <label class="comentario" for="Fecha">Ingrese la fecha actual:</label>
+        <input type="date" name="fecha" class="respuesta" id="Fecha" required>
         <br>
 
-        <label class="comentario" for="">Escriba el tipo de usuario:</label>
-        <input class="respuesta" type="list" name="lista">
+        <label class="comentario" for="Usuario">Escriba el tipo de usuario:</label>
+        <input type="text" class="respuesta" name="lista" id="Usuario" required>
         <br>
 
-        <label class="comentario" for="">¿A que sede pertenece de la UPDS?</label>
+        <label class="comentario" for="Sede">¿A que sede pertenece de la UPDS?</label>
 
-        <select class="respuesta" name="opciones">
+        <select class="respuesta" name="opciones" id="Sede">
             <optgroup label="Seleccionar departamento...">
             <option value="1">La Paz</option>
             <option value="2">Oruro</option>
@@ -47,12 +47,12 @@
          </select>
         <br>
 
-         <label class="comentario" for="">Ingrese su comentario (opcional)</label>
-         <input class="respuesta" type="textarea" name="comentarios">
+         <label class="comentario" for="Comentario">Ingrese su comentario (opcional)</label>
+         <textarea class="respuesta" name="comentarios" id="Comentario" >Déjame tu comentario aca abajo:</textarea>
          <br>
-         <label class="regresar" for="#"><a href="index.html"style="color:black;">Regresar a la pagina principal</a></label>
-        <label class="envi" for="#"><a href="agrp.html" style="color:rgb(253, 253, 253);">Enviar</a></label>
-         
+         <a href="index.html" class="enviar">Regresar a la pagina principal</a>
+
+         <input type="submit" value="ENVIAR" class="enviar"/>
     </form>
     
 </body>

@@ -88,7 +88,10 @@
     margin-bottom: 20px;
     color: #fff;
   }
-  
+  .portada img{
+    width: 300px;
+    height: 300px;
+  }
   .portada h2,
   .portada p {
     margin-bottom: 10px;
