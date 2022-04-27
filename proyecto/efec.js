@@ -3,7 +3,7 @@ $(document).ready(function(){
 	// Efecto Menu
 	$('.men a').each(function(PROYECTO, elemento){
 		$(this).css({
-			'top': '-100px'
+			'top': '500px'
 		});
 		$(this).animate({
 			'top': '0px'
@@ -18,7 +18,7 @@ $(document).ready(function(){
 
 		$('.men a').animate({
 			opacity: 1,
-			marginTop: '5px'
+			marginTop: '10px'
 		},1000);
 	}
 	//var top = $('#top').offset().top;
