@@ -1,30 +1,25 @@
 .encabezado {
-    background:#b49922;
+    background:#000000;
     color:#fff;
     margin-bottom: 20px;
 }
 
 .main {
-    background:#bdf4c1;
+    background-color: rgb(0, 255, 127);
+    color: rgb(0, 0, 0);
     margin-bottom: 20px;
-}
-
-aside {
-    background:#30dbf5;
-    color:#000;
 }
 
 .widgets {
     margin-bottom: 20px;
-}
-
-.widget {
     background: #dbb3f9;
 }
 
-.color {
+
+
+/*.color {
     background: #d2d2d2;
-}
+}*/
 
 footer {
     background:#000;
