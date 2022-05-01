@@ -1,0 +1,32 @@
+.encabezado {
+    background:#b49922;
+    color:#fff;
+    margin-bottom: 20px;
+}
+
+.main {
+    background:#bdf4c1;
+    margin-bottom: 20px;
+}
+
+aside {
+    background:#30dbf5;
+    color:#000;
+}
+
+.widgets {
+    margin-bottom: 20px;
+}
+
+.widget {
+    background: #dbb3f9;
+}
+
+.color {
+    background: #d2d2d2;
+}
+
+footer {
+    background:#000;
+    color:#fff;
+}

@@ -23,7 +23,6 @@ $(document).ready(function(){
 	}
 	//var top = $('#top').offset().top;
 	//var	contacto = $('#contacto').offset().top;
-	var	opi = $('#opi').offset().top;
 	//var	snn = $('#sn').offset().top;
         
         
