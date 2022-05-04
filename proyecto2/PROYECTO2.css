@@ -99,3 +99,16 @@ body p{
     width: 200px;
     height: 250px;
 }
+.borde{    
+    margin: 25px 0px 0px 10px;
+    padding: 5px;
+    border-radius: 15px;
+}
+h2{
+    margin: 10px;
+    padding: 5px;
+    border-radius: 15px;
+    background: rgb(0, 0, 0);
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
