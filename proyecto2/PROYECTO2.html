@@ -6,60 +6,64 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TOPGAMER.com</title> 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="PROYECTO2.css">
     <link rel="icon" href="../img/lob.ico">
 
 </head>
-<body>
-    <header class="men">
-         <img  src="https://e7.pngegg.com/pngimages/865/907/png-clipart-agar-io-youtube-logo-emblem-video-gaming-clan-youtube-symmetry-monochrome.png" alt="">
-        <nav id="container">
-            <a class="menu" id="top" href="PROYECTO2.html">TOP 10</a>
-            <a class="menu" id="contacto" href="contacto2.html">Contactos</a>
-            <a class="menu"  href="opiniones2.html">Opiniones</a>
-            <a class="menu" id="sn" href="nosotros2.html">Sobre nosotros</a>
-        </nav>
-    </header>
+<body> 
+  <header class="men">
+  <nav class="navbar navbar-expand-lg navbar-light bg-light" id="container">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"><img src="../img/icono2.png" alt=""></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarScroll">
+        <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Link
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled">Link</a>
+          </li>
+        </ul>
+        
+      </div>
+    </div>
+  </nav>
+  </header>
     <div class="top">
         <h1>FIFA 22</h1>
        <br>
-       <div class="container">
-		<div class="row">
-			<div class="col-12 mt-3">
-				<div class="carousel slide" id="first-carousel" data-ride="carousel">
-					<ol class="carousel-indicators">
-						<li data-target="#first-carousel" data-slid-to="0" class="active"></li>
-						<li data-target="#first-carousel" data-slid-to="1"></li>
-						<li data-target="#first-carousel" data-slid-to="2"></li>
-					</ol>
-
-					<div class="carousel-inner">
-						<div class="carousel-item active">
-							<img src="../carrucel/caim/FIFA1.png" class="w-100" alt="">
-						</div>
-						<div class="carousel-item">
-							<img src="../carrucel/caim/FIFA2.png" class="w-100" alt="">
-						</div>
-						<div class="carousel-item">
-							<img src="../carrucel/caim/FIFA3.png" class="w-100" alt="">
-						</div>
-						
-					</div>
-
-					<a href="#first-carousel" class="carousel-control-prev" data-slide="prev">
-						<span class="carousel-control-prev-icon" aria-hidden="true"></span>
-						<span class="sr-only">Anterior</span>
-					</a>
-
-					<a href="#first-carousel" class="carousel-control-next" data-slide="next">
-						<span class="carousel-control-next-icon" aria-hidden="true"></span>
-						<span class="sr-only">Siguiente</span>
-					</a>
-				</div>
-			</div>
-		</div>
+       <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="4000">
+            <img src="../carrucel/caim/FIFA1.png" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item" data-bs-interval="4000">
+            <img src="../carrucel/caim/FIFA2.png" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item" data-bs-interval="4000">
+            <img src="../carrucel/caim/FIFA3.png" class="d-block w-100" alt="...">
+          </div>
         </div>
+        
+      </div>
         <br>
        <br>
         <p>
@@ -88,42 +92,21 @@
         <br>
         <h1>Pac-Man y las Aventuras Fantasmales</h1>
        <br>
-      <div class="container">
-		<div class="row">
-			<div class="col-12 mt-3">
-				<div class="carousel slide" id="second-carousel" data-ride="carousel">
-					<ol class="carousel-indicators">
-						<li data-target="#second-carousel" data-slid-to="0" class="active"></li>
-						<li data-target="#second-carousel" data-slid-to="1"></li>
-						<li data-target="#second-carousel" data-slid-to="2"></li>
-					</ol>
-
-					<div class="carousel-inner">
-						<div class="carousel-item active">
-							<img src="../carrucel/caim/pac_man1.png" class="w-100" alt="">
-						</div>
-						<div class="carousel-item">
-							<img src="../carrucel/caim/pac_man2.png" class="w-100" alt="">
-						</div>
-						<div class="carousel-item">
-							<img src="../carrucel/caim/pac_man3.png" class="w-100" alt="">
-						</div>
-						
-					</div>
-
-					<a href="#second-carousel" class="carousel-control-prev" data-slide="prev">
-						<span class="carousel-control-prev-icon" aria-hidden="true"></span>
-						<span class="sr-only">Anterior</span>
-					</a>
-
-					<a href="#second-carousel" class="carousel-control-next" data-slide="next">
-						<span class="carousel-control-next-icon" aria-hidden="true"></span>
-						<span class="sr-only">Siguiente</span>
-					</a>
-				</div>
-			</div>
-		</div>
+       <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="4000">
+            <img src="../carrucel/caim/pac_man1.png" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item" data-bs-interval="4000">
+            <img src="../carrucel/caim/pac_man2.png" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item" data-bs-interval="4000">
+            <img src="../carrucel/caim/pac_man3.png" class="d-block w-100" alt="...">
+          </div>
         </div>
+        
+      </div>
+        
        <br>
         Han pasado más de 40 años desde su creación y hasta la fecha nuestro amigo Amarillo sigue causando impacto, a tal grado que no importa si no lo jugaste de seguro habrás llegado a escuchar de nuestro amigo amarillo. Su jugabilidad es simple pero adictiva, que te brindara horas de diversión estando disponible de forma gratuita para pc y para Android.
        <br><br>
@@ -147,43 +130,21 @@
        <br>
         <h1>Tetris Ultimate</h1>    
            <br>
-      <div class="container">
-		<div class="row">
-			<div class="col-12 mt-3">
-				<div class="carousel slide" id="third-carousel" data-ride="carousel">
-					<ol class="carousel-indicators">
-						<li data-target="#third-carousel" data-slid-to="0" class="active"></li>
-						<li data-target="#third-carousel" data-slid-to="1"></li>
-						<li data-target="#third-carousel" data-slid-to="2"></li>
-					</ol>
-
-					<div class="carousel-inner">
-						<div class="carousel-item active">
-							<img src="../carrucel/caim/tetris1.png" class="w-100" alt="">
-						</div>
-						<div class="carousel-item">
-							<img src="../carrucel/caim/tetris2.png" class="w-100" alt="">
-						</div>
-						<div class="carousel-item">
-							<img src="../carrucel/caim/tetris3.png" class="w-100" alt="">
-						</div>
-						
-					</div>
-
-					<a href="#third-carousel" class="carousel-control-prev" data-slide="prev">
-						<span class="carousel-control-prev-icon" aria-hidden="true"></span>
-						<span class="sr-only">Anterior</span>
-					</a>
-
-					<a href="#third-carousel" class="carousel-control-next" data-slide="next">
-						<span class="carousel-control-next-icon" aria-hidden="true"></span>
-						<span class="sr-only">Siguiente</span>
-					</a>
-				</div>
-			</div>
-		</div>
-        </div>
-        <br>
+           <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active" data-bs-interval="4000">
+                <img src="../carrucel/caim/tetris1.png" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item" data-bs-interval="4000">
+                <img src="../carrucel/caim/tetris2.png" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item" data-bs-interval="4000">
+                <img src="../carrucel/caim/tetris3.png" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            
+          </div>
+            <br>
         Otro juego de antaño en nuestro top, aunque no muchos hayan logrado entenderlo o poder jugarlo bien, tetris tenía la habilidad de tenerte ahí intentando una y otra vez juntando puntos. Actualmente tenemos muchas versiones del original y todas cuentan con la misma jugabilidad, probando que nunca pasara de moda, debido a que es gratuito tanto para pc como para celular.
        <br><br>
         <h2>Requisitos para pc </h2>       
@@ -203,42 +164,21 @@
        <br>
         <h1>Space invaders</h1>
        <br>
-      <div class="container">
-		<div class="row">
-			<div class="col-12 mt-3">
-				<div class="carousel slide" id="fourth-carousel" data-ride="carousel">
-					<ol class="carousel-indicators">
-						<li data-target="#fourth-carousel" data-slid-to="0" class="active"></li>
-						<li data-target="#fourth-carousel" data-slid-to="1"></li>
-						<li data-target="#fourth-carousel" data-slid-to="2"></li>
-					</ol>
-
-					<div class="carousel-inner">
-						<div class="carousel-item active">
-							<img src="../carrucel/caim/space_invader1.jpg" class="w-100" alt="">
-						</div>
-						<div class="carousel-item">
-							<img src="../carrucel/caim/space_invader2.jpg" class="w-100" alt="">
-						</div>
-						<div class="carousel-item">
-							<img src="../carrucel/caim/space_invader3.jpg" class="w-100" alt="">
-						</div>
-						
-					</div>
-
-					<a href="#fourth-carousel" class="carousel-control-prev" data-slide="prev">
-						<span class="carousel-control-prev-icon" aria-hidden="true"></span>
-						<span class="sr-only">Anterior</span>
-					</a>
-
-					<a href="#fourth-carousel" class="carousel-control-next" data-slide="next">
-						<span class="carousel-control-next-icon" aria-hidden="true"></span>
-						<span class="sr-only">Siguiente</span>
-					</a>
-				</div>
-			</div>
-		</div>
-        </div>
+          <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active" data-bs-interval="4000">
+                <img src="../carrucel/caim/space_invader1.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item" data-bs-interval="4000">
+                <img src="../carrucel/caim/space_invader2.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item" data-bs-interval="4000">
+                <img src="../carrucel/caim/space_invader3.jpg" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            
+          </div>
+    
         <br>
 Space Invaders se ha convertido en uno de los iconos culturales más importantes en todo lo que se refiere al mundo de los videojuegos. Y un ejemplo incuestionable que refleja esta realidad tiene que ver con el sprite de los propios invaders, el cual se asocia en la actualidad de manera inequívoca con la cultura retro. Cuenta con versiones gratuitas gratuito tanto para pc como para celular.
        <br><br>
@@ -265,43 +205,21 @@ Space Invaders se ha convertido en uno de los iconos culturales más importantes
        <br>
        <h1> Mario Kart 8 Deluxe </h1>
               <br>
-      <div class="container">
-		<div class="row">
-			<div class="col-12 mt-3">
-				<div class="carousel slide" id="fifth-carousel" data-ride="carousel">
-					<ol class="carousel-indicators">
-						<li data-target="#fifth-carousel" data-slid-to="0" class="active"></li>
-						<li data-target="#fifth-carousel" data-slid-to="1"></li>
-						<li data-target="#fifth-carousel" data-slid-to="2"></li>
-					</ol>
-
-					<div class="carousel-inner">
-						<div class="carousel-item active">
-							<img src="../carrucel/caim/mario1.png" class="w-100" alt="">
-						</div>
-						<div class="carousel-item">
-							<img src="../carrucel/caim/mario2.png" class="w-100" alt="">
-						</div>
-						<div class="carousel-item">
-							<img src="../carrucel/caim/mario3.jpg" class="w-100" alt="">
-						</div>
-						
-					</div>
-
-					<a href="#fifth-carousel" class="carousel-control-prev" data-slide="prev">
-						<span class="carousel-control-prev-icon" aria-hidden="true"></span>
-						<span class="sr-only">Anterior</span>
-					</a>
-
-					<a href="#fifth-carousel" class="carousel-control-next" data-slide="next">
-						<span class="carousel-control-next-icon" aria-hidden="true"></span>
-						<span class="sr-only">Siguiente</span>
-					</a>
-				</div>
-			</div>
-		</div>
-        </div>-->
-        <br>
+              <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active" data-bs-interval="4000">
+                    <img src="../carrucel/caim/mario1.png" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item" data-bs-interval="4000">
+                    <img src="../carrucel/caim/mario2.png" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item" data-bs-interval="4000">
+                    <img src="../carrucel/caim/mario3.jpg" class="d-block w-100" alt="...">
+                  </div>
+                </div>
+                
+              </div>
+                <br>
         Si bien la primera vez que vimos a Mario y Luigi oficialmente fue en Super Mario Bros, el juego más vendido y jugado termino siendo Mario Kart en todas sus versiones, ya que este nos ponía a nuestro querido Mario en un nuevo ambiente que ya no se enfocaba solo en rescatar a la princesa, sino que nos presentaba la posibilidad de competir contra nuestros personajes favoritos, pertenecientes a la saga en una carrera llena de curvas, trucos, poderes y trampas.
         Mario Kart 8 Deluxe termina siendo el mejor de todas sus versiones debido a su jugabilidad y gráficos.
        <br><br>
@@ -312,43 +230,21 @@ Space Invaders se ha convertido en uno de los iconos culturales más importantes
        <br>
        <h1> Minecraft</h1>
               <br>
-      <div class="container">
-		<div class="row">
-			<div class="col-12 mt-3">
-				<div class="carousel slide" id="sixth-carousel" data-ride="carousel">
-					<ol class="carousel-indicators">
-						<li data-target="#sixth-carousel" data-slid-to="0" class="active"></li>
-						<li data-target="#sixth-carousel" data-slid-to="1"></li>
-						<li data-target="#sixth-carousel" data-slid-to="2"></li>
-					</ol>
-
-					<div class="carousel-inner">
-						<div class="carousel-item active">
-							<img src="../carrucel/caim/minecraft1.jpg" class="w-100" alt="">
-						</div>
-						<div class="carousel-item">
-							<img src="../carrucel/caim/minecraft2.jpg" class="w-100" alt="">
-						</div>
-						<div class="carousel-item">
-							<img src="../carrucel/caim/minecraft3.jpg" class="w-100" alt="">
-						</div>
-						
-					</div>
-
-					<a href="#sixth-carousel" class="carousel-control-prev" data-slide="prev">
-						<span class="carousel-control-prev-icon" aria-hidden="true"></span>
-						<span class="sr-only">Anterior</span>
-					</a>
-
-					<a href="#sixth-carousel" class="carousel-control-next" data-slide="next">
-						<span class="carousel-control-next-icon" aria-hidden="true"></span>
-						<span class="sr-only">Siguiente</span>
-					</a>
-				</div>
-			</div>
-		</div>
-        </div>
-        <br>
+              <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active" data-bs-interval="4000">
+                    <img src="../carrucel/caim/minecraft1.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item" data-bs-interval="4000">
+                    <img src="../carrucel/caim/minecraft2.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item" data-bs-interval="4000">
+                    <img src="../carrucel/caim/minecraft3.jpg" class="d-block w-100" alt="...">
+                  </div>
+                </div>
+                
+              </div>
+                <br>
         No hay juego en el mundo que se compare a Minecraft, debido a que este no te plantea una meta o una línea a seguir, eres tu quien decide como jugarlo, el juego nunca te pondrá limites en tu mundo, y todo puede convertirse en cualquier cosa el limite termina siendo tu imaginación. Desde su primera entrega hasta la fecha nunca dejo de estar en los más jugados ya que al paso de los años fue evolucionando. 
        <br>
         <h2>Requisitos para pc </h2>
@@ -371,43 +267,21 @@ Space Invaders se ha convertido en uno de los iconos culturales más importantes
        <br>
        <h1> Tekken</h1>
               <br>
-      <div class="container">
-		<div class="row">
-			<div class="col-12 mt-3">
-				<div class="carousel slide" id="seventh-carousel" data-ride="carousel">
-					<ol class="carousel-indicators">
-						<li data-target="#seventh-carousel" data-slid-to="0" class="active"></li>
-						<li data-target="#seventh-carousel" data-slid-to="1"></li>
-						<li data-target="#seventh-carousel" data-slid-to="2"></li>
-					</ol>
-
-					<div class="carousel-inner">
-						<div class="carousel-item active">
-							<img src="../carrucel/caim/tekken1.jpg" class="w-100" alt="">
-						</div>
-						<div class="carousel-item">
-							<img src="../carrucel/caim/tekken2.jpg" class="w-100" alt="">
-						</div>
-						<div class="carousel-item">
-							<img src="../carrucel/caim/tekken3.jpg" class="w-100" alt="">
-						</div>
-						
-					</div>
-
-					<a href="#seventh-carousel" class="carousel-control-prev" data-slide="prev">
-						<span class="carousel-control-prev-icon" aria-hidden="true"></span>
-						<span class="sr-only">Anterior</span>
-					</a>
-
-					<a href="#seventh-carousel" class="carousel-control-next" data-slide="next">
-						<span class="carousel-control-next-icon" aria-hidden="true"></span>
-						<span class="sr-only">Siguiente</span>
-					</a>
-				</div>
-			</div>
-		</div>
-        </div>
-        <br>
+              <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active" data-bs-interval="4000">
+                    <img src="../carrucel/caim/tekken1.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item" data-bs-interval="4000">
+                    <img src="../carrucel/caim/tekken2.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item" data-bs-interval="4000">
+                    <img src="../carrucel/caim/tekken3.jpg" class="d-block w-100" alt="...">
+                  </div>
+                </div>
+                
+              </div>
+                <br>
         Desde que el juego dejo de ser un juego de arcade y paso a ser exclusivo para PlayStation, su popularidad ha crecido a lo largo de los años, ya que no solo era un juego de peleas, sino que después de cada pelea final se nos presentaba fragmentos de los personajes permitiéndonos empatizar con ciertos personajes causando que la audiencia se encariñara con ellos.
        <br><br>
         <h2>Requisitos para pc</h2> 
@@ -429,42 +303,20 @@ Space Invaders se ha convertido en uno de los iconos culturales más importantes
        <br>
         <h1>Metal Slug 2</h1>
        <br>
-      <div class="container">
-		<div class="row">
-			<div class="col-12 mt-3">
-				<div class="carousel slide" id="eighth-carousel" data-ride="carousel">
-					<ol class="carousel-indicators">
-						<li data-target="#eighth-carousel" data-slid-to="0" class="active"></li>
-						<li data-target="#eighth-carousel" data-slid-to="1"></li>
-						<li data-target="#eighth-carousel" data-slid-to="2"></li>
-					</ol>
-
-					<div class="carousel-inner">
-						<div class="carousel-item active">
-							<img src="../carrucel/caim/metalslug1.jpg" class="w-100" alt="">
-						</div>
-						<div class="carousel-item">
-							<img src="../carrucel/caim/metalslug2.png" class="w-100" alt="">
-						</div>
-						<div class="carousel-item">
-							<img src="../carrucel/caim/metalslug3.jpg" class="w-100" alt="">
-						</div>
-						
-					</div>
-
-					<a href="#eighth-carousel" class="carousel-control-prev" data-slide="prev">
-						<span class="carousel-control-prev-icon" aria-hidden="true"></span>
-						<span class="sr-only">Anterior</span>
-					</a>
-
-					<a href="#eighth-carousel" class="carousel-control-next" data-slide="next">
-						<span class="carousel-control-next-icon" aria-hidden="true"></span>
-						<span class="sr-only">Siguiente</span>
-					</a>
-				</div>
-			</div>
-		</div>
+       <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="4000">
+            <img src="../carrucel/caim/metalslug1.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item" data-bs-interval="4000">
+            <img src="../carrucel/caim/metalslug2.png" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item" data-bs-interval="4000">
+            <img src="../carrucel/caim/metalslug3.jpg" class="d-block w-100" alt="...">
+          </div>
         </div>
+        
+      </div>
         <br>
         Metal Slug es una saga clásica de los juegos de arcade, que llego a tener varias entregas, sin embargo, el más destacado fue su segunda entrega, en el que habría distintos añadidos que harían de la saga algo inigualable, podías enfrentar a las momias y convertirte en una, añadieron por primera vez el volverte gordo, montabas camellos, y los objetos que recogías cambiaban la forma en la que se desarrollaba.
        <br><br>
@@ -488,43 +340,21 @@ Space Invaders se ha convertido en uno de los iconos culturales más importantes
        <br>
         <h1>League of Legends</h1>
                <br>
-               <div class="container">
-                <div class="row">
-                    <div class="col-12 mt-3">
-                        <div class="carousel slide" id="nineth-carousel" data-ride="carousel">
-                            <ol class="carousel-indicators">
-                                <li data-target="#nineth-carousel" data-slid-to="0" class="active"></li>
-                                <li data-target="#nineth-carousel" data-slid-to="1"></li>
-                                <li data-target="#nineth-carousel" data-slid-to="2"></li>
-                            </ol>
-        
-                            <div class="carousel-inner">
-                                <div class="carousel-item active">
-                                    <img src="../carrucel/caim/LoL1.png" class="w-100" alt="">
-                                </div>
-                                <div class="carousel-item">
-                                    <img src="../carrucel/caim/LoL2.png" class="w-100" alt="">
-                                </div>
-                                <div class="carousel-item">
-                                    <img src="../carrucel/caim/LoL3.png" class="w-100" alt="">
-                                </div>
-                                
-                            </div>
-        
-                            <a href="#nineth-carousel" class="carousel-control-prev" data-slide="prev">
-                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                <span class="sr-only">Anterior</span>
-                            </a>
-        
-                            <a href="#nineth-carousel" class="carousel-control-next" data-slide="next">
-                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                <span class="sr-only">Siguiente</span>
-                            </a>
-                        </div>
-                    </div>
+               <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active" data-bs-interval="4000">
+                    <img src="../carrucel/caim/LoL1.png" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item" data-bs-interval="4000">
+                    <img src="../carrucel/caim/LoL2.png" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item" data-bs-interval="4000">
+                    <img src="../carrucel/caim/LoL3.png" class="d-block w-100" alt="...">
+                  </div>
                 </div>
-                </div>  
-               <br>
+                
+              </div>
+                       <br>
         League of Legends nació de un conflicto entre los creadores de dota 2 y la saga de Warcraft, lo cual sin querer termino causando la creación de dicho juego que copia la jugabilidad de dota 2, obviamente creando sus propios personajes, historia, ítems, etc. Aunque empezara con la fama de ser la copia de la copia, termino siendo mucho más popular que dota 2 teniendo mayor preferencia entre los usuarios, hasta la actualidad donde cuenta con su versión para pc y para celular.
        <br><br>
         <h2>Requisitos para pc </h2>
@@ -545,42 +375,20 @@ Space Invaders se ha convertido en uno de los iconos culturales más importantes
        <br>
         <h1>World of Warcraft</h1>
        <br>
-      <div class="container">
-		<div class="row">
-			<div class="col-12 mt-3">
-				<div class="carousel slide" id="tenth-carousel" data-ride="carousel">
-					<ol class="carousel-indicators">
-						<li data-target="#tenth-carousel" data-slid-to="0" class="active"></li>
-						<li data-target="#tenth-carousel" data-slid-to="1"></li>
-						<li data-target="#tenth-carousel" data-slid-to="2"></li>
-					</ol>
-
-					<div class="carousel-inner">
-						<div class="carousel-item active">
-							<img src="../carrucel/caim/warcraft1.jpg" class="w-100" alt="">
-						</div>
-						<div class="carousel-item">
-							<img src="../carrucel/caim/warcraft2.jpg" class="w-100" alt="">
-						</div>
-						<div class="carousel-item">
-							<img src="../carrucel/caim/warcraft3.jpg" class="w-100" alt="">
-						</div>
-						
-					</div>
-
-					<a href="#tenth-carousel" class="carousel-control-prev" data-slide="prev">
-						<span class="carousel-control-prev-icon" aria-hidden="true"></span>
-						<span class="sr-only">Anterior</span>
-					</a>
-
-					<a href="#tenth-carousel" class="carousel-control-next" data-slide="next">
-						<span class="carousel-control-next-icon" aria-hidden="true"></span>
-						<span class="sr-only">Siguiente</span>
-					</a>
-				</div>
-			</div>
-		</div>
+       <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="4000">
+            <img src="../carrucel/caim/warcraft1.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item" data-bs-interval="4000">
+            <img src="../carrucel/caim/warcraft2.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item" data-bs-interval="4000">
+            <img src="../carrucel/caim/warcraft3.jpg" class="d-block w-100" alt="...">
+          </div>
         </div>
+        
+      </div>
         <br>
         World of Warcraft nació como un intento desesperado de Blizzard Entertainment para tratar de competir con Dota, presentándole al usuario un mundo nuevo y mucho más grande que el que se había visto en Warcraft trono de hielo, expandiendo la historia y permitiéndole al jugador jugar en línea con sus amigos o avanzar solo. Fue una gran innovación sin embargo la jugabilidad no era la mejor ya que tenías que cargar con muchos ítems y casillas, por ello perdió muchos usuarios.
        <br><br>     
@@ -604,10 +412,11 @@ Space Invaders se ha convertido en uno de los iconos culturales más importantes
           <a href="http://www.upds.edu.bo/" class="li"> UPDS - Cbba.</a>
         </p>
       </footer>
-     <script src="../JS/jquery-1.12.3.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+     <!--<script src="../JS/jquery-1.12.3.min.js"></script>
      <script src="../carrucel/jquery-3.3.1.min.js"></script>
      <script src="../carrucel/popper.min.js"></script>
      <script src="../carrucel/bootstrap.min.js"></script> 
-      <script src="efec2.js"></script>
+      <script src="efec2.js"></script>-->
 </body>
 </html>

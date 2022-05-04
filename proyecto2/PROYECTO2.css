@@ -47,7 +47,7 @@ body header img{
     display: flex;
     height: 50px;
 }
-.pie{
+.pie p{
     text-align: center;
     background-color: black;   
     color:rgb(255,255,255);
