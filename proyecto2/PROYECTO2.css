@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body{
-    max-width: 80%;
+    max-width: 98%;
     margin: 0 auto;
     background-color: rgb(219, 216, 216);
 }
@@ -37,7 +37,7 @@ header{
     width: 100%;
     padding: 25px;
     margin: 0 auto;
-    background-color: rgb(0, 255, 127);
+    background-color: lightblue;
     color: rgb(0, 0, 0);
 }
 
@@ -62,20 +62,6 @@ body div img{
     margin: 5px auto;
 }
 
-/* preguntar
-.menu::before{
-    display: block;
-    content: '';
-    width: 0%;
-    background: #719393;
-    height: 5px;
-    top: 0;
-    position: absolute;
-    transition: width 0.5s;
-}
-.menu:hover:before{
-    width: 100%;
-}*/
 body h1{
     width: 100%;
     border-radius: 5px;
@@ -93,7 +79,7 @@ body p{
     types: disc;
 }
 .LMS{
-    background-color: rgb(0, 255, 127);
+    background-color: rgb(176, 216, 230);
 }
 .LMS img{
     width: 200px;
